@@ -1,0 +1,17 @@
+#heroimg{
+        background-repeat: no-repeat, repeat;
+        background-blend-mode: lighten;
+}
+
+.body{
+    background-blend-mode: soft-light;
+}
+
+
+.hr-line{
+    width: 28%;
+    border: black;
+    margin-left: 36%;
+    box-shadow: 1px 1px;
+    margin-top: -1%;
+}
