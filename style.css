@@ -1,0 +1,134 @@
+.title-head{
+    margin-left: 150px;
+}
+
+.navbar-start{
+    margin-left: 5%;
+}
+
+.nav-1{
+    margin-right: 20px;
+}
+
+.nav-2{
+    
+    margin-right: 20px;
+}
+
+.card-back{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 55%;
+    margin-left: 21%;
+    padding-bottom: 2%;
+}
+
+.card-box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 32px 26px;
+    margin-top: 8%;
+}
+
+.card-text-1{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-text-2{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    margin-left: -14px;
+
+    
+}
+
+.btn-card{
+    width: 100%;
+    margin-top: 4%;
+    padding: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.card-background{
+    background-color: aliceblue;
+    padding-bottom: 56px;
+    
+}
+
+.input-tt{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.tt-list-1{
+    margin-left: 20px;
+    margin-right: 43px;
+}
+
+.tt-back{
+    background-color: #D9EDF7;
+    width: 85%;
+    margin-left: 7%;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.tt-back-1{
+    width: 85%;
+    margin-left: 7%;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.tt-list-2{
+    margin-right: 150px;
+    margin-left: 70px;
+}
+
+.tt-list-3{
+    margin-right: 20px;
+}
+
+.tt-list-a{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 28px;
+}
+
+.tt-list-b{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 68px;
+}
+
+.tt-list-c{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 27px;
+}
+
+.tt-list-d{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 180px;
+}
+
+.tt-list-e{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 116px;
+}
+
+
+
+.tt-list-4{
+    margin-left: 115px;
+}
+
+.tt-list-5{
+    margin-left: 50px;
+
+}

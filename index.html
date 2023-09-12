@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <h1 class="title is-1 mt-4 title-head mr-6">BuzyBus</h1>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link nav-1 is-size-5">
+                  Bus Info
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item " href="#live-status">
+                    Live Bus Status
+                  </a>
+                  <a class="navbar-item ">
+                    Time Table
+                  </a>
+                  
+                </div>
+              </div>
+            <a class="navbar-item nav-2 is-size-5">
+              Help
+            </a>
+      
+            <a class="navbar-item nav-3 is-size-5">
+              About Us
+            </a>
+      
+            
+          </div>
+      
+          
+        </div>
+      </nav>
+
+      <iframe width="1600" height="650" class="" src="images/WhatsApp Video 2023-09-12 at 14.08.53.mp4"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <div class="container card-background" id="live-status">
+        
+        <h2 class="subtitle is-2 has-text-centered mt-6 has-text-weight-bold ">Check Bus Status</h2>
+
+        <div class="card card-back">
+            <div class="card-content">
+              <div class="content is-size-4 ml-5">
+                Search By Bus
+              </div>
+
+              <div class="card-box">
+                <h1 class=" card-text-1">Bus Number/Name</h1>
+                <div class="control">
+                  <input class="input card-text-2" type="text" placeholder="Select Bus No.">
+                </div> 
+                <button class="button is-link btn-card has-text-white">Check Status</button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="">
+        <h2 class="subtitle is-2 has-text-centered mt-6 has-text-weight-bold ">Time Table</h2>
+        <div class="control">
+            <input class="input input-tt" type="text" placeholder="Type a Bus number or name">
+          </div>
+
+          <h2 class="subtitle is-4 has-text-centered mt-6 has-text-weight-bold ">List of himachal buses and their time table</h2>
+          <!-- <div class="tt-basic">
+            <ul class="list-tt">
+                <li><a href="#">Bulma</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Components</a></li>
+              </ul>
+          </div> -->
+
+          <nav class="breadcrumb has-dot-separator tt-back" aria-label="breadcrumbs">
+            <ul>
+              <li><a href="#" class="tt-list-1 is-size-5 has-text-black mt-4">Bus Number</a></li>
+              <li><a href="#" class="tt-list-2 is-size-5 has-text-black mt-4">Bus Name</a></li>
+              <li><a href="#" class="tt-list-3 is-size-5 has-text-black mt-4">Bus Type</a></li>
+              <li><a href="#" class="tt-list-4 is-size-5 has-text-black mt-4">Departure Time(Hrs)</a></li>
+              <li><a href="#" class="tt-list-5 is-size-5 has-text-black mt-4">Arrival time(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+          
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li><a href="#" class="tt-list-a has-text-black mt-4">12267</a></li>
+              <li><a href="#" class="tt-list-b has-text-black mt-4">MUMBAI CENTRAL - AHMEDABAD AC</a></li>
+              <li><a href="#" class="tt-list-c has-text-black mt-4">Non-Ac</a></li>
+              <li><a href="#" class="tt-list-d has-text-black mt-4">23:25(Hrs)</a></li>
+              <li><a href="#" class="tt-list-e has-text-black mt-4">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li><a href="#" class="tt-list-a has-text-black mt-4">12267</a></li>
+              <li><a href="#" class="tt-list-b has-text-black mt-4">MUMBAI CENTRAL - AHMEDABAD AC</a></li>
+              <li><a href="#" class="tt-list-c has-text-black mt-4">Non-Ac</a></li>
+              <li><a href="#" class="tt-list-d has-text-black mt-4">23:25(Hrs)</a></li>
+              <li><a href="#" class="tt-list-e has-text-black mt-4">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li><a href="#" class="tt-list-a has-text-black mt-4">12267</a></li>
+              <li><a href="#" class="tt-list-b has-text-black mt-4">MUMBAI CENTRAL - AHMEDABAD AC</a></li>
+              <li><a href="#" class="tt-list-c has-text-black mt-4">Non-Ac</a></li>
+              <li><a href="#" class="tt-list-d has-text-black mt-4">23:25(Hrs)</a></li>
+              <li><a href="#" class="tt-list-e has-text-black mt-4">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li><a href="#" class="tt-list-a has-text-black mt-4">12267</a></li>
+              <li><a href="#" class="tt-list-b has-text-black mt-4">MUMBAI CENTRAL - AHMEDABAD AC</a></li>
+              <li><a href="#" class="tt-list-c has-text-black mt-4">Non-Ac</a></li>
+              <li><a href="#" class="tt-list-d has-text-black mt-4">23:25(Hrs)</a></li>
+              <li><a href="#" class="tt-list-e has-text-black mt-4">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li><a href="#" class="tt-list-a has-text-black mt-4">12267</a></li>
+              <li><a href="#" class="tt-list-b has-text-black mt-4">MUMBAI CENTRAL - AHMEDABAD AC</a></li>
+              <li><a href="#" class="tt-list-c has-text-black mt-4">Non-Ac</a></li>
+              <li><a href="#" class="tt-list-d has-text-black mt-4">23:25(Hrs)</a></li>
+              <li><a href="#" class="tt-list-e has-text-black mt-4">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+      </div>
+  
+  </body>
+</html>
